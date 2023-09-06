@@ -1,0 +1,346 @@
+/* ===============================
+            GOLOBAL CSS
+===================================*/
+body,h1,h2,h3,h4,h5,h6,span,a,div,p{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+.section-bg{
+    background: #f9f9ff;
+}
+.section-pd{
+    padding: 100px 0;
+}
+
+
+.section-bg2{
+    background: #7a9dfe;
+}
+img{
+	max-width: 100%;
+}
+
+
+
+
+
+
+/* ===============================
+            GOLOBAL CSS
+===================================*/
+/* ===============================
+            NAVBAR CSS
+===================================*/
+
+.navbar-logo img {
+	width: 56px;
+	height: auto;
+}
+
+.primary-menu li a {
+	color: #737373;
+	display: inline-block;
+	font-size: 14.8px;
+	font-weight: 300;
+	line-height: 27px;
+	padding: 7px 15px;
+	transition: .4s;
+  text-decoration: none;
+}
+.primary-menu li:hover > a{
+	color: #222;
+}
+.primary-menu li:first-child a{
+	color: #222 !important;
+}
+.primary-menu li:last-child a {
+	padding-right: 0;
+}
+/* Drowpdown menu */
+.primary-menu li ul li{
+	display: flex;
+	flex-direction: column;
+}
+.primary-menu li ul li a{
+	color: #737373;
+	display: block;
+	font-size: 14.8px;
+	font-weight: 300;
+	line-height: 27px;
+	padding: 7px 14px;
+	transition: .4s;
+}
+.primary-menu li ul li a:hover{
+	letter-spacing: .2px;
+}
+.primary-menu li{
+	position: relative;
+}
+.primary-menu li ul {
+	position: absolute;
+	top: 160%;
+	left: 0;
+	background: #fff;
+	width: 210px;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+
+
+}
+.primary-menu li:hover ul{
+	top: 100%;
+	opacity: 1;
+	visibility: visible;
+
+}
+
+
+
+
+
+
+/* ===============================
+            NAVBAR CSS
+===================================*/
+/* ===============================
+            SLIDER CSS
+===================================*/
+/* .row.slider {
+	height: 90vh;
+	justify-content: center;
+	align-items: center;
+} */
+
+.slider-content h6 {
+	color: #222222;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26.8px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.slider-content h2 {
+	color: #222222;
+	font-size: 59.2px;
+	line-height: 68.8px;
+	font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.about-content p {
+	color: #777777;
+	font-size: 12.8px;
+	font-weight: 300;
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/* ===============================
+            SLIDER CSS
+===================================*/
+/* ===============================
+            ABOUT CSS
+===================================*/
+
+.about-content h6 {
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 31px;
+	color: #222222;
+}
+.about-content h2 {
+	color: #222222;
+	font-size: 46.2px;
+	line-height: 62.8px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.about-content p{
+    color: #777777;
+	font-size: 14.8px;
+	font-weight: 300;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* ===============================
+            ABOUT CSS
+===================================*/
+/* ===============================
+            CONTER CSS
+===================================*/
+.count-content p{
+    font-size: 14.8px;
+    font-weight: 300;
+    line-height: 25px;
+    
+}
+
+
+
+
+
+/* ===============================
+            CONTER CSS
+===================================*/
+/* ===============================
+            SERVICE CSS
+===================================*/
+.section-title h3 {
+	color: #222222;
+	font-size: 37px;
+	line-height: 58px;
+	font-weight: 400;
+}
+.section-title p {
+	color: #777777;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 31px;
+}
+.service-box .card{
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.1);
+    padding: 30px 20px;
+    background: #fff;
+}
+
+.service-box .card h3 {
+	width: 100px;
+	height: 100px;
+	background: #f9f9ff;
+	border-radius: 50%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.service-box .card h4 {
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 31.8px;
+	color: #222222;
+}
+.service-box .card p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #777777;
+}
+.service-box .card ul li {
+	font-size: 19px;
+	font-weight: 400;
+	color: #777777;
+	padding: 20px 0;
+	line-height: 31.8px;
+}
+.service-button {
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,.4);
+	padding: 10px 20px;
+	font-size: 21px;
+	font-weight: 400;
+}
+/* ===============================
+            SERVICE CSS
+===================================*/
+/* ===============================
+            TEAM CSS
+===================================*/
+.team-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.team-box{
+	margin: 40px 0;
+}
+.team-box .card{
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,.2);
+    padding: 30px 20px;
+    background: #fff;
+    position: relative;
+}
+.team-box .card .card-image img {
+	position: absolute;
+	left: 20px;
+	top: -57px;
+}
+.team-btn {
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,.4);
+	display: inline-block;
+	color: #222;
+	font-size: 14.8px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: 400;
+}
+/* ===============================
+            TEAM CSS
+===================================*/
+/* ===============================
+            CONTACT CSS
+===================================*/
+.contact-form .card {
+	border: none;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 30px;
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,.1);
+}
+
+.contact-form .card input, textarea {
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px 20px;
+	border: 1px solid #ddd;
+	color: #222;
+	font-size: 18px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,.1);
+	border-radius: 5px;
+}
+
+
+
+
+
+.contact-content {
+	margin-top: 56px;
+}
+.contact-content h4 {
+	color: #222222;
+	font-size: 23px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	line-height: 31.8px;
+}
+.contact-content ul li {
+	color: #777777;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 7px 0;
+}
+/* ===============================
+            CONTACT CSS
+===================================*/
